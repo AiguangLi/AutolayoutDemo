@@ -18,5 +18,5 @@ Using VFL is excellent for me, such as:
 
 #Demo
 The demo shows a common login UI, screenshot as below:
- ![image](https://github.com/AiguangLi/AutolayoutDemo/blob/master/screenshot.png)
+ <p>![image](https://github.com/AiguangLi/AutolayoutDemo/blob/master/screenshot.png)</p>
  The UI can work well when rotate the device.
