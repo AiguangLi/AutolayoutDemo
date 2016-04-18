@@ -17,4 +17,6 @@ Using VFL is excellent for me, such as:
 3. Add VFL constraints to UI components
 
 #Demo
-Suppose we have a login UI page with two textfields (username, password) and two buttons (login, register)
+The demo shows a common login UI, screenshot as below:
+ ![image](https://github.com/AiguangLi/AutolayoutDemo/blob/master/screenshot.png)
+ The UI can work well when rotate the device.
