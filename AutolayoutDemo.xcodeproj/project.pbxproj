@@ -10,11 +10,10 @@
 		6B40C7AC1CC471F90025719E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B40C7AB1CC471F90025719E /* main.m */; };
 		6B40C7AF1CC471F90025719E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B40C7AE1CC471F90025719E /* AppDelegate.m */; };
 		6B40C7B21CC471F90025719E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B40C7B11CC471F90025719E /* ViewController.m */; };
-		6B40C7B51CC471F90025719E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B40C7B31CC471F90025719E /* Main.storyboard */; };
 		6B40C7B71CC471F90025719E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B40C7B61CC471F90025719E /* Assets.xcassets */; };
-		6B40C7BA1CC471F90025719E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B40C7B81CC471F90025719E /* LaunchScreen.storyboard */; };
 		6B40C7C51CC471F90025719E /* AutolayoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B40C7C41CC471F90025719E /* AutolayoutDemoTests.m */; };
 		6B40C7D01CC471F90025719E /* AutolayoutDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B40C7CF1CC471F90025719E /* AutolayoutDemoUITests.m */; };
+		6B40C7E51CC47E7E0025719E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B40C7E41CC47E7E0025719E /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +40,7 @@
 		6B40C7AE1CC471F90025719E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6B40C7B01CC471F90025719E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6B40C7B11CC471F90025719E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6B40C7B41CC471F90025719E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B40C7B61CC471F90025719E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6B40C7B91CC471F90025719E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B40C7BB1CC471F90025719E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B40C7C01CC471F90025719E /* AutolayoutDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutolayoutDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B40C7C41CC471F90025719E /* AutolayoutDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutolayoutDemoTests.m; sourceTree = "<group>"; };
@@ -51,6 +48,7 @@
 		6B40C7CB1CC471F90025719E /* AutolayoutDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutolayoutDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B40C7CF1CC471F90025719E /* AutolayoutDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutolayoutDemoUITests.m; sourceTree = "<group>"; };
 		6B40C7D11CC471F90025719E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B40C7E41CC47E7E0025719E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +79,7 @@
 		6B40C79E1CC471F90025719E = {
 			isa = PBXGroup;
 			children = (
+				6B40C7E41CC47E7E0025719E /* Default-568h@2x.png */,
 				6B40C7A91CC471F90025719E /* AutolayoutDemo */,
 				6B40C7C31CC471F90025719E /* AutolayoutDemoTests */,
 				6B40C7CE1CC471F90025719E /* AutolayoutDemoUITests */,
@@ -105,9 +104,7 @@
 				6B40C7AE1CC471F90025719E /* AppDelegate.m */,
 				6B40C7B01CC471F90025719E /* ViewController.h */,
 				6B40C7B11CC471F90025719E /* ViewController.m */,
-				6B40C7B31CC471F90025719E /* Main.storyboard */,
 				6B40C7B61CC471F90025719E /* Assets.xcassets */,
-				6B40C7B81CC471F90025719E /* LaunchScreen.storyboard */,
 				6B40C7BB1CC471F90025719E /* Info.plist */,
 				6B40C7AA1CC471F90025719E /* Supporting Files */,
 			);
@@ -243,9 +240,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B40C7BA1CC471F90025719E /* LaunchScreen.storyboard in Resources */,
 				6B40C7B71CC471F90025719E /* Assets.xcassets in Resources */,
-				6B40C7B51CC471F90025719E /* Main.storyboard in Resources */,
+				6B40C7E51CC47E7E0025719E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +302,6 @@
 			targetProxy = 6B40C7CC1CC471F90025719E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		6B40C7B31CC471F90025719E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6B40C7B41CC471F90025719E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6B40C7B81CC471F90025719E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6B40C7B91CC471F90025719E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6B40C7D21CC471F90025719E /* Debug */ = {
@@ -414,6 +391,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AutolayoutDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mooeen.AutolayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AutolayoutDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mooeen.AutolayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +475,7 @@
 				6B40C7D61CC471F90025719E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B40C7D71CC471F90025719E /* Build configuration list for PBXNativeTarget "AutolayoutDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +484,7 @@
 				6B40C7D91CC471F90025719E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B40C7DA1CC471F90025719E /* Build configuration list for PBXNativeTarget "AutolayoutDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +493,7 @@
 				6B40C7DC1CC471F90025719E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
