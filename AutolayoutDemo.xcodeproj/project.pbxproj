@@ -14,6 +14,7 @@
 		6B40C7C51CC471F90025719E /* AutolayoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B40C7C41CC471F90025719E /* AutolayoutDemoTests.m */; };
 		6B40C7D01CC471F90025719E /* AutolayoutDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B40C7CF1CC471F90025719E /* AutolayoutDemoUITests.m */; };
 		6B40C7E51CC47E7E0025719E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B40C7E41CC47E7E0025719E /* Default-568h@2x.png */; };
+		6B40C7EE1CC4B0340025719E /* VisualFormatLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B40C7ED1CC4B0340025719E /* VisualFormatLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		6B40C7CF1CC471F90025719E /* AutolayoutDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutolayoutDemoUITests.m; sourceTree = "<group>"; };
 		6B40C7D11CC471F90025719E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B40C7E41CC47E7E0025719E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6B40C7EC1CC4B0340025719E /* VisualFormatLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualFormatLayout.h; sourceTree = "<group>"; };
+		6B40C7ED1CC4B0340025719E /* VisualFormatLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisualFormatLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				6B40C7B61CC471F90025719E /* Assets.xcassets */,
 				6B40C7BB1CC471F90025719E /* Info.plist */,
 				6B40C7AA1CC471F90025719E /* Supporting Files */,
+				6B40C7EC1CC4B0340025719E /* VisualFormatLayout.h */,
+				6B40C7ED1CC4B0340025719E /* VisualFormatLayout.m */,
 			);
 			path = AutolayoutDemo;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 			files = (
 				6B40C7B21CC471F90025719E /* ViewController.m in Sources */,
 				6B40C7AF1CC471F90025719E /* AppDelegate.m in Sources */,
+				6B40C7EE1CC4B0340025719E /* VisualFormatLayout.m in Sources */,
 				6B40C7AC1CC471F90025719E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

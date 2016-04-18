@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "VisualFormatLayout.h"
 
 @interface ViewController ()
 
@@ -48,7 +49,7 @@
     [self.view addSubview:_usernameTextField];
     
     _passwordTextField = [[UITextField alloc]init];
-    _passwordTextField.placeholder = @"Enter passowrd";
+    _passwordTextField.placeholder = @"Enter password";
     _passwordTextField.secureTextEntry = YES;
     [self.view addSubview:_passwordTextField];
     
@@ -108,31 +109,13 @@
                                 @"H:|-HMT-[_passwordTextField]-HMT-|",
                                 @"H:|[_passwordLine]|",
                                 @"H:|-HMB-[_loginButton]-HP-[_registerButton(==_loginButton)]-HMB-|",
-                                //Vertical constraints: add constraints to set vertical margins, paddings and height
                                 @"V:|-VM-[_usernameTextField(==HU)]-VP-[_usernameLine(==HLI)]-VP-[_passwordTextField(==HU)]-VP-[_passwordLine(==HLI)]-VP-[_loginButton(==HU)]",
                                 @"V:[_passwordLine]-VP-[_registerButton(==HU)]"
                                 ];
-    [ViewController autoLayout:self.view visualFormats:visualFormats metrics:metrics views:views];
+    [VisualFormatLayout autoLayout:self.view visualFormats:visualFormats metrics:metrics views:views];
     
 }
 
-//This function can be used for any constraints using VFL
-+ (void)autoLayout:(UIView *)superview visualFormats:(NSArray *)formats metrics:(NSDictionary *)metrics views:(NSDictionary *)views
-{
-    for (id o in [views allValues]) {
-        if ([o isKindOfClass:[UIView class]]) {
-            UIView *v = (UIView *)o;
-            if (superview != v) {
-                v.translatesAutoresizingMaskIntoConstraints = NO;
-            }
-        }
-    }
-    NSMutableArray* constraints = [[NSMutableArray alloc]init];
-    for (NSString *s in formats) {
-        [constraints addObjectsFromArray: [NSLayoutConstraint constraintsWithVisualFormat:s options:0 metrics:metrics views:views]];
-    }
-    [superview addConstraints:constraints];
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
