@@ -20,3 +20,19 @@ Using VFL is excellent for me, such as:
 The demo shows a common login UI, screenshot as below:
  <p>![image](https://github.com/AiguangLi/AutolayoutDemo/blob/master/screenshot.png)</p>
  The UI can work well when rotate the device.
+
+#Sample code
+    NSDictionary *views = NSDictionaryOfVariableBindings(_loginButton, _registerButton, _usernameTextField,
+                                                         _passwordTextField, _usernameLine, _passwordLine);
+                                                         
+    NSDictionary *metrics = @{@"HMT":@20, @"VM":@40, @"VP":@10, @"HMB":@15, @"HP":@20, @"HU":@40, @"HLI":@1};
+    NSArray *visualFormats = @[
+                                @"H:|-HMT-[_usernameTextField]-HMT-|",
+                                @"H:|-HMT-[_usernameLine]|",
+                                @"H:|-HMT-[_passwordTextField]-HMT-|",
+                                @"H:|[_passwordLine]|",
+                                @"H:|-HMB-[_loginButton]-HP-[_registerButton(==_loginButton)]-HMB-|",
+                                @"V:|-VM-[_usernameTextField(==HU)]-VP-[_usernameLine(==HLI)]-VP-[_passwordTextField(==HU)]-VP-[_passwordLine(==HLI)]-VP-[_loginButton(==HU)]",
+                                @"V:[_passwordLine]-VP-[_registerButton(==HU)]"
+                                ];
+    [VisualFormatLayout autoLayout:self.view visualFormats:visualFormats metrics:metrics views:views];
