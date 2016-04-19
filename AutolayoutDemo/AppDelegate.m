@@ -2,7 +2,9 @@
 //  AppDelegate.m
 //  AutolayoutDemo
 //
-//  Created by kimi on 16/4/18.
+//  Created by Aiguang Li on 16/4/18.
+//  Email: Aiguang.Li@gmail.com
+//  Github: https://github.com/AiguangLi/
 //  Copyright © 2016年 mooeen. All rights reserved.
 //
 
